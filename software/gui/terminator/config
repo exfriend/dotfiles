@@ -1,0 +1,34 @@
+[global_config]
+  borderless = True
+  title_font = Sans 12
+  title_use_system_font = False
+[keybindings]
+  broadcast_all = <Primary><Alt>Scroll_Lock
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2d323d"
+    cursor_color = "#d0d0d0"
+    font = DejaVu Sans Mono 14
+    foreground_color = "#ffffff"
+    icon_bell = False
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[transparent]]
+    background_darkness = 0.0
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Monospace 10
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
