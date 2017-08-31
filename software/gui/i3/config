@@ -135,7 +135,7 @@ bindsym $mod+Return exec terminator
 bindsym $mod+c kill
 
 bindsym $mod+s exec rofi -show run
-bindsym $mod+t exec lock
+bindsym $mod+t exec ~/dotfiles/software/bin/lock.sh
 
 
 # change focus
