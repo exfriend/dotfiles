@@ -101,9 +101,9 @@ exec --no-startup-id "compton --config ~/dotfiles/software/gui/compton/compton.c
 # ---------------------------------------------------------------
 
 
-client.focused            #404040 #343434 #ffffff #336699
-client.focused_inactive   #404040 #262626 #676767 #484e50
-client.unfocused          #404040 #262626 #676767 #484e50
+client.focused            #404040 #2d323d #ffffff #336699
+client.focused_inactive   #404040 #2d323d #888888 #484e50
+client.unfocused          #404040 #2d323d #888888 #484e50
 
 
 # ---------------------------------------------------------------
@@ -128,7 +128,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen
 bindsym XF86Calculator exec gnome-calculator
 
 
-font pango:Fira Code 15
+font pango:FIra Code 15
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
