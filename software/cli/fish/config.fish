@@ -1,4 +1,5 @@
-set PATH ~/.config/composer/vendor/bin $PATH
+#set PATH ~/.config/composer/vendor/bin $PATH
+export VISUAL="vim"
 
 if not set -q abbrs_initialized
   set -U abbrs_initialized
