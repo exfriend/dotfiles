@@ -11,12 +11,12 @@ gaps inner 25
 # ---------------------------------------------------------------
 
 
-set $centralMoni HDMI-1
+set $centralMoni HDMI1
 #set $leftMoni $centralMoni
 #set $rightMoni $centralMoni
 
-set $leftMoni HDMI-2
-set $rightMoni DP-1
+set $leftMoni HDMI2
+set $rightMoni DP1
 
 #set $centralMoni LVDS1
 #set $leftMoni LVDS1
@@ -128,7 +128,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen
 bindsym XF86Calculator exec gnome-calculator
 
 
-font pango:FIra Code 15
+font pango:Fira Code 15
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -225,8 +225,8 @@ bindsym $mod+E workspace $w_rightMoni1
 bindsym $mod+D workspace $w_rightMoni2
 
 
-#bindsym $mod+H workspace prev_on_output
-#bindsym $mod+L workspace next_on_output
+bindsym $mod+shift+o workspace prev_on_output
+bindsym $mod+shift+p workspace next_on_output
 
 #bindsym $mod+* focus output left
 #bindsym $mod+/ focus output right
