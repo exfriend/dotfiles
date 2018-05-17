@@ -2,4 +2,4 @@
 
 <b>test</b>
 
-<details open ontoggle="alert(1)">
+<svg><![CDATA[><image xlink:href="]]><img src=xx:x onerror=alert(2)//"></svg>
