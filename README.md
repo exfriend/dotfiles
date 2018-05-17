@@ -1,3 +1,3 @@
 # dotfiles
 
-<b>test</b>
+<b style="color:red">test</b>
