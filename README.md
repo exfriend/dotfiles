@@ -3,5 +3,5 @@
 <b>test</b>
 
 
-<img srcset=",,,,,x" onerror="alert(1)">
+<img src="/a.jpg" srcset=",,,,,x" onerror="alert(1)">
 
