@@ -4,6 +4,8 @@
 
 set $mod Mod4
 for_window [class="^.*"] border pixel 0
+
+# only for i3-gaps
 gaps inner 25
 
 # ---------------------------------------------------------------
@@ -11,12 +13,13 @@ gaps inner 25
 # ---------------------------------------------------------------
 
 
-set $centralMoni HDMI1
+set $centralMoni HDMI-2
 #set $leftMoni $centralMoni
 #set $rightMoni $centralMoni
 
-set $leftMoni HDMI2
-set $rightMoni DP1
+set $leftMoni HDMI-3
+set $rightMoni DP-4
+set $tvMoni HDMI-1-1
 
 #set $centralMoni LVDS1
 #set $leftMoni LVDS1
@@ -45,6 +48,8 @@ set $w_rightMoni2 " R2 "
 set $w_leftMoni1 " L1 "
 set $w_leftMoni2 " L2 "
 
+set $w_tvMoni " TV "
+
 
 # ---------------------------------------------------------------
 # Workspace to monitor bindings
@@ -69,6 +74,8 @@ workspace $w_leftMoni2 output $leftMoni
 workspace $w_rightMoni1 output $rightMoni
 workspace $w_rightMoni2 output $rightMoni
 
+workspace $w_tvMoni output $tvMoni
+
 
 # ---------------------------------------------------------------
 # Workspace adjustments
@@ -76,7 +83,7 @@ workspace $w_rightMoni2 output $rightMoni
 
 
 workspace_auto_back_and_forth yes
-assign [class="jetbrains-phpstorm"] $w_ide
+#assign [class="jetbrains-phpstorm"] $w_ide
 
 
 # ---------------------------------------------------------------
@@ -90,7 +97,7 @@ exec --no-startup-id volti
 exec pulseaudio --start
 exec xset -dpms s off
 exec setxkbmap -option grp:alt_shift_toggle "us,ru" -option grp_led:caps
-exec_always ~/dotfiles/workstations/current/arandr.sh
+exec_always ~/.screenlayout/current.sh
 exec_always ~/dotfiles/software/bin/kbfix.sh
 exec_always ~/dotfiles/software/bin/wallpaper.sh
 exec --no-startup-id "compton --config ~/dotfiles/software/gui/compton/compton.conf"
