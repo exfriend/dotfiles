@@ -6,20 +6,21 @@ set $mod Mod4
 for_window [class="^.*"] border pixel 0
 
 # only for i3-gaps
-gaps inner 25
+#gaps inner 25
 
 # ---------------------------------------------------------------
 # Platform-dependant variables
 # ---------------------------------------------------------------
 
+#set $tv HDMI-1-3
+#set $centralMoni $deskMonitor
+set $centralMoni HDMI-1-3
 
-set $centralMoni HDMI-2
+set $leftMoni HDMI-2
 #set $leftMoni $centralMoni
 #set $rightMoni $centralMoni
-
-set $leftMoni HDMI-3
-set $rightMoni DP-4
-set $tvMoni HDMI-1-1
+set $rightMoni DP-1
+#set $tvMoni HDMI-1-1
 
 #set $centralMoni LVDS1
 #set $leftMoni LVDS1
@@ -94,6 +95,7 @@ workspace_auto_back_and_forth yes
 exec --no-startup-id nm-applet
 exec --no-startup-id blueberry-tray
 exec --no-startup-id volti
+exec pulseaudio --start
 exec pulseaudio --start
 exec xset -dpms s off
 exec setxkbmap -option grp:alt_shift_toggle "us,ru" -option grp_led:caps
