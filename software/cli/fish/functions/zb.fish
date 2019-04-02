@@ -1,3 +1,3 @@
 function zb
-	cd /work/brifr/
+	cd /work/browsersquad/
 end
