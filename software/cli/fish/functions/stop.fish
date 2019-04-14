@@ -1,3 +1,4 @@
+# Defined in /tmp/fish.jeHKJw/stop.fish @ line 2
 function stop
-	./compose.fish stop $argv
+	c stop $argv
 end
