@@ -1,4 +1,4 @@
 #!/bin/bash
-#scrot /tmp/screen.png
+scrot /tmp/screen.png
 #convert /tmp/screen.png -blur 0x3 /tmp/screen.png
-i3lock -i /work/afk.png
+i3lock -i /tmp/screen.png

@@ -1,4 +1,4 @@
-# Defined in - @ line 2
+# Defined in /tmp/fish.Btxcto/up.fish @ line 2
 function up
-	./compose.fish up -d --build $argv
+	docker-compose up -d --build $argv
 end
