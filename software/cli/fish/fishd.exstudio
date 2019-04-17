@@ -11,7 +11,7 @@ SET abbrs_initialized:\x1d
 SET fish_color_autosuggestion:555\x1ebrblack
 SET fish_color_command:\x2d\x2dbold
 SET fish_color_comment:red
-SET fish_color_cwd:green
+SET fish_color_cwd:brgreen
 SET fish_color_cwd_root:red
 SET fish_color_end:brmagenta
 SET fish_color_error:brred
@@ -27,7 +27,7 @@ SET fish_color_redirection:brblue
 SET fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
 SET fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SET fish_color_status:red
-SET fish_color_user:brgreen
+SET fish_color_user:F08080
 SET fish_color_valid_path:\x2d\x2dunderline
 SET fish_greeting:\x1d
 SET fish_key_bindings:fish_default_key_bindings
