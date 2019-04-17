@@ -11,7 +11,7 @@ SET abbrs_initialized:\x1d
 SET fish_color_autosuggestion:555\x1ebrblack
 SET fish_color_command:\x2d\x2dbold
 SET fish_color_comment:red
-SET fish_color_cwd:brgreen
+SET fish_color_cwd:87d7ff
 SET fish_color_cwd_root:red
 SET fish_color_end:brmagenta
 SET fish_color_error:brred

@@ -1,4 +1,3 @@
 function reseed
-	php artisan migrate:refresh --seed
-php artisan bouncer:seed
+	php artisan migrate:fresh --seed
 end
