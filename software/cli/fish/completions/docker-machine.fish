@@ -1,1 +1,0 @@
-/home/exfriend/.config/fisherman/docker-machine/completions/docker-machine.fish

@@ -37,4 +37,3 @@ SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SET fish_user_paths:/home/exfriend/\x2efzf/bin
 SET fisher_active_prompt:\x1d
-SET fisher_dependency_count:await\x1efzf\x1eget\x1egetopts\x1elast_job_id\x1ez\x1edocker\x2dmachine
