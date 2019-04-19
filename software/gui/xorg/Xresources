@@ -1,7 +1,7 @@
 rofi.modi:                           run
-rofi.opacity:                        100
+rofi.opacity:                        90
 rofi.width:                          70
-rofi.lines:                          7
+rofi.lines:                          5
 rofi.columns:                        1
 rofi.font:                           Fira Code 30
 rofi.fullscreen:                     true
@@ -12,8 +12,8 @@ rofi.hide-scrollbar:                 true
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
 rofi.color-enabled: true
-rofi.color-window: #3c3c45, #3c3c45, #52525c
-rofi.color-normal: #3c3c45, #ffffff, #3c3c45, #727272, #ffffff
+rofi.color-window: #2d323d, #2d323d, #262836
+rofi.color-normal: #2d323d, #ffffff, #2d323d, #2d323d, #f08080
 rofi.color-active: #b5b5b5, #ffffff, #52525c, #52525c, #ffffff
 rofi.color-urgent: #3c3c45, #ffffff, #52525c, #52525c, #ffffff
 
@@ -40,7 +40,7 @@ rofi.parse-hosts:                    true
 rofi.combi-modi:                     window,run
 rofi.fuzzy:                          true
 rofi.m:                              -1
-rofi.line-margin:                    3
+rofi.line-margin:                    30
 rofi.filter:
 rofi.separator-style:                dash
 rofi.pid:                            /run/user/1000/rofi.pid
