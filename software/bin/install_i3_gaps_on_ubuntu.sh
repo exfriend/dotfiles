@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cd /tmp
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps
