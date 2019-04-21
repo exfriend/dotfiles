@@ -14,12 +14,12 @@ gaps inner 40
 
 #set $tv HDMI-1-3
 #set $centralMoni $deskMonitor
-set $centralMoni HDMI-1-3
+set $centralMoni HDMI-3
 
-set $leftMoni HDMI-2
+set $leftMoni HDMI2
 #set $leftMoni $centralMoni
 #set $rightMoni $centralMoni
-set $rightMoni DP-1
+set $rightMoni DP1
 #set $tvMoni HDMI-1-1
 
 #set $centralMoni LVDS1
@@ -137,7 +137,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen
 bindsym XF86Calculator exec gnome-calculator
 
 
-font pango:Fira Code 15
+font pango:Fira Code Medium 15
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -315,9 +315,9 @@ bar {
         statusline #ffffff
         separator #666666
 
-        focused_workspace  #2d323d #2e343e #fefefe
-        active_workspace   #2d323d #5f676a #ffffff
-        inactive_workspace #2d323d #2d323d #888888
+        focused_workspace  #2d323d #2e343e #a4dbdb
+        active_workspace   #2d323d #2d323d #83a0a0
+        inactive_workspace #2d323d #2d323d #606a82
         urgent_workspace   #2f343a #f08080 #ffffff
     }
 }
