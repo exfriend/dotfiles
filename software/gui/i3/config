@@ -12,19 +12,10 @@ gaps inner 40
 # Platform-dependant variables
 # ---------------------------------------------------------------
 
-#set $tv HDMI-1-3
-#set $centralMoni $deskMonitor
+set $tvMoni HDMI1
 set $centralMoni HDMI-3
-
 set $leftMoni HDMI2
-#set $leftMoni $centralMoni
-#set $rightMoni $centralMoni
 set $rightMoni DP1
-#set $tvMoni HDMI-1-1
-
-#set $centralMoni LVDS1
-#set $leftMoni LVDS1
-#set $rightMoni LVDS1
 
 
 # ---------------------------------------------------------------
@@ -49,7 +40,16 @@ set $w_rightMoni2 " R2 "
 set $w_leftMoni1 " L1 "
 set $w_leftMoni2 " L2 "
 
-set $w_tvMoni " TV "
+set $w_tvMoni1 " TV1 "
+set $w_tvMoni2 " TV2 "
+set $w_tvMoni3 " TV3 "
+set $w_tvMoni4 " TV4 "
+set $w_tvMoni5 " TV5 "
+set $w_tvMoni6 " TV6 "
+set $w_tvMoni7 " TV7 "
+set $w_tvMoni8 " TV8 "
+set $w_tvMoni9 " TV9 "
+set $w_tvMoni0 " TV0 "
 
 
 # ---------------------------------------------------------------
@@ -75,7 +75,16 @@ workspace $w_leftMoni2 output $leftMoni
 workspace $w_rightMoni1 output $rightMoni
 workspace $w_rightMoni2 output $rightMoni
 
-workspace $w_tvMoni output $tvMoni
+workspace $w_tvMoni1 output $tvMoni
+workspace $w_tvMoni2 output $tvMoni
+workspace $w_tvMoni3 output $tvMoni
+workspace $w_tvMoni4 output $tvMoni
+workspace $w_tvMoni5 output $tvMoni
+workspace $w_tvMoni6 output $tvMoni
+workspace $w_tvMoni7 output $tvMoni
+workspace $w_tvMoni8 output $tvMoni
+workspace $w_tvMoni9 output $tvMoni
+workspace $w_tvMoni0 output $tvMoni
 
 
 # ---------------------------------------------------------------
@@ -196,36 +205,30 @@ bindsym $mod+Shift+space floating toggle
 #bindsym $mod+d focus child
 
 # switch to workspace
+
+
+bindsym $mod+Mod1+1 workspace $w_tvMoni1
+bindsym $mod+Mod1+2 workspace $w_tvMoni2
+bindsym $mod+Mod1+3 workspace $w_tvMoni3
+bindsym $mod+Mod1+4 workspace $w_tvMoni4
+bindsym $mod+Mod1+5 workspace $w_tvMoni5
+bindsym $mod+Mod1+6 workspace $w_tvMoni6
+bindsym $mod+Mod1+7 workspace $w_tvMoni7
+bindsym $mod+Mod1+8 workspace $w_tvMoni8
+bindsym $mod+Mod1+9 workspace $w_tvMoni9
+bindsym $mod+Mod1+0 workspace $w_tvMoni0
+
+
 bindsym $mod+1 workspace $w_browser
-bindcode $mod+87 workspace $w_browser
-
 bindsym $mod+2 workspace $w_ide
-bindcode $mod+88 workspace $w_ide
-
 bindsym $mod+3 workspace $w_term
-bindcode $mod+89 workspace $w_term
-
 bindsym $mod+4 workspace $w_music
-bindcode $mod+83 workspace $w_music
-
 bindsym $mod+5 workspace $w_chat
-bindcode $mod+84 workspace $w_chat
-
 bindsym $mod+6 workspace $w_files
-bindcode $mod+85 workspace $w_files
-
 bindsym $mod+7 workspace $w_seven
-bindcode $mod+79 workspace $w_seven
-
 bindsym $mod+8 workspace $w_eight
-bindcode $mod+80 workspace $w_eight
-
 bindsym $mod+9 workspace $w_nine
-bindcode $mod+81 workspace $w_nine
-
 bindsym $mod+0 workspace $w_ten
-bindcode $mod+90 workspace $w_ten
-
 
 bindsym $mod+Q workspace $w_leftMoni1
 bindsym $mod+A workspace $w_leftMoni2
@@ -242,35 +245,28 @@ bindsym $mod+shift+p workspace next_on_output
 
 
 # move focused container to workspace
+
+bindsym $mod+Mod1+Shift+1 move container to workspace $w_tvMoni1
+bindsym $mod+Mod1+Shift+2 move container to workspace $w_tvMoni2
+bindsym $mod+Mod1+Shift+3 move container to workspace $w_tvMoni3
+bindsym $mod+Mod1+Shift+4 move container to workspace $w_tvMoni4
+bindsym $mod+Mod1+Shift+5 move container to workspace $w_tvMoni5
+bindsym $mod+Mod1+Shift+6 move container to workspace $w_tvMoni6
+bindsym $mod+Mod1+Shift+7 move container to workspace $w_tvMoni7
+bindsym $mod+Mod1+Shift+8 move container to workspace $w_tvMoni8
+bindsym $mod+Mod1+Shift+9 move container to workspace $w_tvMoni9
+bindsym $mod+Mod1+Shift+0 move container to workspace $w_tvMoni0
+
 bindsym $mod+Shift+1 move container to workspace $w_browser
-bindsym $mod+Shift+KP_1 move container to workspace $w_browser
-
 bindsym $mod+Shift+2 move container to workspace $w_ide
-bindsym $mod+Shift+KP_2 move container to workspace $w_ide
-
 bindsym $mod+Shift+3 move container to workspace $w_term
-bindsym $mod+Shift+KP_3 move container to workspace $w_term
-
 bindsym $mod+Shift+4 move container to workspace $w_music
-bindsym $mod+Shift+KP_4 move container to workspace $w_music
-
 bindsym $mod+Shift+5 move container to workspace $w_chat
-bindsym $mod+Shift+KP_5 move container to workspace $w_chat
-
 bindsym $mod+Shift+6 move container to workspace $w_files
-bindsym $mod+Shift+KP_6 move container to workspace $w_files
-
 bindsym $mod+Shift+7 move container to workspace $w_seven
-bindsym $mod+Shift+KP_7 move container to workspace $w_seven
-
 bindsym $mod+Shift+8 move container to workspace $w_eight
-bindsym $mod+Shift+KP_8 move container to workspace $w_eight
-
 bindsym $mod+Shift+9 move container to workspace $w_nine
-bindsym $mod+Shift+KP_9 move container to workspace $w_nine
-
 bindsym $mod+Shift+0 move container to workspace $w_ten
-bindsym $mod+Shift+KP_0 move container to workspace $w_ten
 
 bindsym $mod+Shift+Q move container to workspace $w_leftMoni1
 bindsym $mod+Shift+A move container to workspace $w_leftMoni2
