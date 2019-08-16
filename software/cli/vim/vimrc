@@ -52,3 +52,4 @@ source ~/.vim/settings/mappings.vim
 source ~/.vim/settings/appearance.vim
 source ~/.vim/settings/plugins.vim
 
+set clipboard+=ideaput

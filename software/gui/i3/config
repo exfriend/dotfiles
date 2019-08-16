@@ -6,7 +6,7 @@ set $mod Mod4
 for_window [class="^.*"] border pixel 0
 
 # only for i3-gaps
-gaps inner 40
+gaps inner 20
 
 # ---------------------------------------------------------------
 # Platform-dependant variables
