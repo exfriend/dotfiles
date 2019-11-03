@@ -12,10 +12,10 @@ gaps inner 20
 # Platform-dependant variables
 # ---------------------------------------------------------------
 
-set $tvMoni eDP-1
-set $centralMoni eDP-1
-set $leftMoni eDP-1
-set $rightMoni eDP-1
+set $tvMoni HDMI-1-1
+set $centralMoni HDMI-0
+set $leftMoni HDMI-1-2
+set $rightMoni DP-1-1
 
 
 # ---------------------------------------------------------------
