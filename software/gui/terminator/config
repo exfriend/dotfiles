@@ -13,7 +13,7 @@
     background_color = "#2d323d"
     cursor_color = "#566576"
     font = Fira Code Medium 14
-    foreground_color = "#ffffff"
+    foreground_color = "#eeeeec"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_lines = 5000

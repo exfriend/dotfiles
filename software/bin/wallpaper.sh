@@ -1,3 +1,3 @@
 #!/bin/bash
-sleep 3; 
+sleep 2; 
 feh --bg-fill ~/dotfiles/excloud/wallpapers/11.jpg
