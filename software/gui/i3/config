@@ -93,7 +93,7 @@ workspace $w_tvMoni0 output $tvMoni
 
 
 workspace_auto_back_and_forth yes
-#assign [class="jetbrains-phpstorm"] $w_ide
+assign [class="jetbrains-phpstorm"] $w_ide
 
 
 # ---------------------------------------------------------------
