@@ -1,3 +1,3 @@
 function фикс
-	sh /home/exfriend/kbfix.sh
+	sh ~/dotfiles/software/bin/kbfix.sh
 end

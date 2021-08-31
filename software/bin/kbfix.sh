@@ -1,1 +1,1 @@
-setxkbmap -option grp:alt_shift_toggle "us,ru" -option grp_led:caps
+setxkbmap -option grp:alt_shift_toggle "us,ru,ua" -option grp_led:caps
