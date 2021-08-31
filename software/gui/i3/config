@@ -13,7 +13,7 @@ gaps inner 20
 # ---------------------------------------------------------------
 
 set $tvMoni HDMI-1-1
-set $centralMoni HDMI-0
+set $centralMoni eDP-1-1
 set $leftMoni HDMI-1-2
 set $rightMoni DP-1-1
 
@@ -102,8 +102,6 @@ assign [class="jetbrains-phpstorm"] $w_ide
 
 
 exec --no-startup-id nm-applet
-exec --no-startup-id blueberry-tray
-exec --no-startup-id volti
 exec pulseaudio --start
 exec pulseaudio --start
 exec xset -dpms s off
