@@ -13,9 +13,9 @@ gaps inner 20
 # ---------------------------------------------------------------
 
 set $tvMoni HDMI-1-1
-set $centralMoni eDP-1-1
-set $leftMoni HDMI-1-2
-set $rightMoni DP-1-1
+set $centralMoni HDMI-0
+set $rightMoni HDMI-1-2
+set $leftMoni DP-1-1
 
 
 # ---------------------------------------------------------------
